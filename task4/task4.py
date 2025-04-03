@@ -12,11 +12,10 @@ from selenium.webdriver.common.keys import Keys
 app = Flask(__name__)
 
 DB_CONFIG = {
-    "dbname": "parser_task2",
+    "dbname": "postgres",
     "user": "postgres",
-    "password": "1234",
     "host": "localhost",
-    "port": "1717"
+    "port": "5433"
 }
 
 def create_table():
